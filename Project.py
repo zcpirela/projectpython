@@ -220,7 +220,7 @@ def render_tab1():
             
             # Show the company description using markdown + HTML
             st.write('###### Company Summary:')
-            st.markdown('<div style="text-align: justify; font-size: 10px;">' + \
+            st.markdown('<div style="text-align: justify; font-size: 12;">' + \
                         info['longBusinessSummary'] + \
                         '</div><br>',
                         unsafe_allow_html=True)
