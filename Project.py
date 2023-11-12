@@ -232,11 +232,6 @@ def render_tab1():
             table_html = major_holders.to_html(index=False, header=False, classes=["no-header-table"])
             styled_html = f'<div style="font-size: 10px;">{table_html}</div>'
             st.markdown(styled_html, unsafe_allow_html=True)
-            
-            #Adding data source image
-            st.write(' ')
-            st.write('###### Data Source:')
-            st.image('./img/yahoo_finance.png', width=100)
                 
         
         with col1:
